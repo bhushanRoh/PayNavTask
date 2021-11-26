@@ -11,7 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
-
+@RequestMapping("/v1")
+@RestController
 public class StudentController {
 
     @Autowired
