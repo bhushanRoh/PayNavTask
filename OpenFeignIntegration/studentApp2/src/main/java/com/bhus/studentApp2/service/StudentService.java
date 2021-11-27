@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-@FeignClient(name = "feignStudentService", url = "http://localhost:8082/v1/")
+@FeignClient(name = "feignStudentService", url = "https://info.payu.in/merchant/postservice.php?form=2")
 public interface StudentService {
 
 
